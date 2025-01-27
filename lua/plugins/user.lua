@@ -82,4 +82,9 @@ return {
       )
     end,
   },
+  --- My changes
+  {
+    "Civitasv/cmake-tools.nvim",
+    -- https://github.com/Civitasv/cmake-tools.nvim
+  },
 }
