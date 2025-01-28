@@ -8,7 +8,7 @@ return {
       "lua",
       "vim",
       "cmake",
-      "pyton",
+      "python",
       "xml",
       "toml",
       "yaml",
