@@ -38,6 +38,7 @@ return {
       },
       o = {
         scrolloff = 3,
+        spelllang = "en,ru",
       },
     },
     -- Mappings can be configured through AstroCore as well.
@@ -59,6 +60,14 @@ return {
             )
           end,
           desc = "Close buffer from tabline",
+        },
+        L = {
+          function() require("astrocore.buffer").nav(vim.v.count1) end,
+          desc = "Next buffer",
+        },
+        H = {
+          function() require("astrocore.buffer").nav(-vim.v.count1) end,
+          desc = "Previous buffer",
         },
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
