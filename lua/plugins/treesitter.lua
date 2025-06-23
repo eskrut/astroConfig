@@ -13,6 +13,7 @@ return {
       "xml",
       "toml",
       "yaml",
+      "json",
       -- add more arguments for adding more treesitter parsers
     },
   },

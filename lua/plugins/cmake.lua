@@ -1,24 +1,25 @@
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 return {
-  -- Предложение от Deepseak
-  -- Плагины для CMake
-  {
-    "mfussenegger/nvim-dap", -- Ядро DAP
-  },
-  {
-    "rcarriga/nvim-dap-ui", -- UI для DAP
-    dependencies = { "mfussenegger/nvim-dap" },
-  },
-  {
-    "theHamsta/nvim-dap-virtual-text", -- Виртуальный текст для отладки
-    dependencies = { "mfussenegger/nvim-dap" },
-  },
-  -- Адаптеры для отладки (зависит от языка, например, для C/C++):
-  {
-    "linux-cultist/venv-selector.nvim", -- Для Python (опционально)
-  },
-  {
-    "p00f/clangd_extensions.nvim", -- Для C++ (опционально)
-  },
+  -- -- Предложение от Deepseak
+  -- -- Плагины для CMake
+  -- {
+  --   "mfussenegger/nvim-dap", -- Ядро DAP
+  -- },
+  -- {
+  --   "rcarriga/nvim-dap-ui", -- UI для DAP
+  --   dependencies = { "mfussenegger/nvim-dap" },
+  -- },
+  -- {
+  --   "theHamsta/nvim-dap-virtual-text", -- Виртуальный текст для отладки
+  --   dependencies = { "mfussenegger/nvim-dap" },
+  -- },
+  -- -- Адаптеры для отладки (зависит от языка, например, для C/C++):
+  -- {
+  --   "linux-cultist/venv-selector.nvim", -- Для Python (опционально)
+  -- },
+  -- {
+  --   "p00f/clangd_extensions.nvim", -- Для C++ (опционально)
+  -- },
   { "nvim-lua/plenary.nvim" },
   {
     -- https://github.com/Civitasv/cmake-tools.nvim

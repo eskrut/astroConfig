@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.xml" },
+  { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   -- import/override with your plugins folder
